@@ -13,7 +13,7 @@
 
 // ForEach - great for doing something to each element in an array
 
-    // Anonymous function - a function that is not defined or set to a variable
+    // Anonymous function - a function that is not defined or set to a variable () => {}
 
 // [3, 4, 5, 6].forEach(() => {})
 
@@ -28,11 +28,11 @@
 //   console.log(value)
 // })
 
-// [3, 4, 5, 6].forEach((value, index, array) => {
-//   console.log("value", value)
-//   console.log("index", index)
-//   console.log("array", array)
-// })
+[3, 4, 5, 6].forEach((value, index, array) => {
+  console.log("value", value)
+  console.log("index", index)
+  console.log("array", array)
+})
 
 // [3, 4, 5, 6].forEach((banana, apple, orange) => {
 //   console.log("banana", banana)
