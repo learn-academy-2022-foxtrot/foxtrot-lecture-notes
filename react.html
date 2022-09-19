@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <script
+      src="https://unpkg.com/react@18/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <title>Intro to React</title>
+  </head>
+  <body>
+    <div id="react-container"></div>
+
+    <script type="text/babel">
+      const App = () => {
+        return (
+         <>
+            <h1>Hello World!</h1>
+            <Foxtrot/>
+            <Foxtrot/>
+            <Foxtrot/>
+            <Foxtrot/>
+            <Foxtrot />
+            <Foxtrot />
+            <Foxtrot />
+            <Foxtrot />
+         </>
+        );
+      };
+
+      const Foxtrot = () => {
+        return <h2> Hey Foxtrot!!</h2>;
+      };
+
+      const domContainer = document.querySelector("#react-container");
+      const root = ReactDOM.createRoot(domContainer);
+      root.render(<App />);
+    </script>
+  </body>
+</html>
