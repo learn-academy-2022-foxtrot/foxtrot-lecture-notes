@@ -34,8 +34,23 @@ REACT INTRO LECTURE NOTES
     - refreshes only the elememts that changed. (no full page refresh!)
 
 # REACT COMPONENTS
-- In react, a fxn returns a value of JSX
-- JSX combo of extended JS and HTL
+
+- In react, a function returns a value of JSX
+- JSX combo of extended JS and HTML
 - Component Call 
  - <Component/>
 
+
+### REACT RECAP:
+
+1. Yarn - package manager by Meta
+2. React is an SPA based on components
+3. In React applications, generally one component per file
+4. Component and file share name - PascalCase
+5. Command:
+    - $ yarn create react-app <app-name>  (kebab-case)
+6. React components bring info from other files using  import
+7. Components require export
+8. React components are invoked/called using <ComponentName/>
+9. Can see changes you are making by running command  $ yarn start .  Can stop with CTRL+C
+10. Use browser console to check your errors
