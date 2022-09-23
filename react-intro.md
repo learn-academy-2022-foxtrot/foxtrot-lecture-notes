@@ -34,6 +34,7 @@ REACT INTRO LECTURE NOTES
     - refreshes only the elememts that changed. (no full page refresh!)
 
 # REACT COMPONENTS
+
 - In react, a function returns a value of JSX
 - JSX combo of extended JS and HTML
 - Component Call 
